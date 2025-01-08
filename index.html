@@ -211,7 +211,7 @@
     <section class="flex mt-20">
       <main class="mr-16">
         <div class="divide-y divide-dashed font-inter">
-          <p class="text-2xl font-raleway font-semibold">Select your seat</p>
+          <p class="text-2xl font-raleway font-semibold my-5">Select your seat</p>
           <div class="flex justify-between font-inter text-lg py-5">
             <p class="font-inter text-lg">Avilable</p>
             <p class="font-inter text-lg text-[#1DD100]">Selected</p>
@@ -470,12 +470,12 @@
       <!-- ticket selling section -->
       <main>
         <div class="divide-y divide-dashed font-inter">
-          <p class="text-2xl font-raleway font-semibold">Select yout seat</p>
+          <p class="text-2xl my-5 font-raleway font-semibold">Select yout seat</p>
           <!-- price calculation-->
           <section>
-            <main class="mt-8 font-inter bg-slate-200 p-5 rounded-lg">
+            <main class="mt-8 font-inter bg-[#F7F8F8] p-5 rounded-lg">
               <div class="divide-y divide-dashed">
-                <div class="flex justify-between gap-32 font-bold">
+                <div class="flex py-3 justify-between gap-32 font-bold">
                   <p>Seat</p>
                   <p>Class</p>
                   <p>Price</p>
@@ -510,85 +510,23 @@
             </main>
           </section>
         </div>
+        <form class="my-10" action="">
+          <p class="font-bold font inter text-xl ">Passanger Name<sup>*</sup></p>
+          <input class="w-full p-3 rounded-lg my-4 border-2 " type="text" placeholder="Enter your name" required>
+          <p class="font-bold font inter text-xl ">Phone Number<sup>*</sup></p>
+          <input class="w-full p-3 rounded-lg my-4 border-2 " type="number" placeholder="Enter your phone number" required>
+          <p class="font-bold font inter text-xl ">Email ID<sup>*</sup></p>
+          <input class="w-full p-3 rounded-lg my-4 border-2 " type="email" placeholder="Enter your email id" required>
+          <button class="w-full p-4 rounded-xl my-4 border-2 text-white bg-green-500 text-xl font-bold">Next</button>
+        </form>
+
+        <div class="flex underline justify-around font-inter">
+          <p>Terms and Conditions</p>
+          <p>Cancellation Policy</p>
+        </div>
       </main>
     </section>
     <!-- end ticket set design and selling section -->
 
-    <!-- 
-   <div>
-    <main>
-      <div class="flex gap-5 mt-5">
-        <div class="text-xl p-5">A</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">A1</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">A2</div><br>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">A3</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">A4</div>
-      </div>
-      <div class="flex gap-5 mt-5">
-        <div class="text-xl p-5">B</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">B1</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">B2</div><br>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">B3</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">B4</div>
-      </div>
-      <div class="flex gap-5 mt-5">
-        <div class="text-xl p-5">C</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">C1</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">C2</div><br>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">C3</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">C4</div>
-      </div>
-      <div class="flex gap-5 mt-5">
-        <div class="text-xl p-5">D</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">D1</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">D2</div><br>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">D3</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">D4</div>
-      </div>
-      <div class="flex gap-5 mt-5">
-        <div class="text-xl p-5">E</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">E1</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">E2</div><br>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">E3</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">E4</div>
-      </div>
-      <div class="flex gap-5 mt-5">
-        <div class="text-xl p-5">F</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">F1</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">F2</div><br>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">F3</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">F4</div>
-      </div>
-      <div class="flex gap-5 mt-5">
-        <div class="text-xl p-5">G</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">G1</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">G2</div><br>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">G3</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">G4</div>
-      </div>
-      <div class="flex gap-5 mt-5">
-        <div class="text-xl p-5">H</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">H1</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">H2</div><br>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">H3</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">H4</div>
-      </div>
-      <div class="flex gap-5 mt-5">
-        <div class="text-xl p-5">I</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">I1</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">I2</div><br>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">I3</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">I4</div>
-      </div>
-      <div class="flex gap-5 mt-5">
-        <div class="text-xl p-5">J</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">J1</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">J2</div><br>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">J3</div>
-        <div class="text-xl bg-[#eceded] p-5 font-inter h-16 w-16 font-medium rounded-lg">J4</div>
-      </div>
-    </main>
-
-   </div> -->
   </body>
 </html>
